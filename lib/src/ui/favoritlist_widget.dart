@@ -12,20 +12,13 @@ class FavoriteListWidget extends StatefulWidget {
 }
 
 class _FavoriteListWidgetState extends State<FavoriteListWidget> {
-  @override
-
-  void initState(){
-    super.initState();
-    Provider.of<WheelchairListProvider>(context, listen: false).loadWheelchairProviderList();
-  }
-
-  Widget _makeListView(List<Wheelchair> list){
+  Widget _makeListView(List<Wheelchair> list) {
     return ListView.builder(
       physics: BouncingScrollPhysics(),
       padding: const EdgeInsets.all(5),
       itemCount: list.length,
-      itemBuilder: (BuildContext context, int index){
-        return wheelchairCard(list[index]);
+      itemBuilder: (BuildContext context, int index) {
+        return WheelchairCard(wheelchair: list[index]);
       },
     );
   }
@@ -33,9 +26,11 @@ class _FavoriteListWidgetState extends State<FavoriteListWidget> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Home'),),
+      appBar: AppBar(
+        title: Text('Home'),
+      ),
       body: Consumer<WheelchairListProvider>(
-        builder: (context, provider, widget){
+        builder: (context, provider, widget) {
           return _makeListView(provider.favoriteList);
         },
       ),

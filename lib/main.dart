@@ -21,8 +21,8 @@ class MyApp extends StatelessWidget {
       ),
       home: MultiProvider(
         providers: [
-          ChangeNotifierProvider(create: (BuildContext context){return BottomNavigationProvider();}),
-          ChangeNotifierProvider(create: (BuildContext context){return WheelchairListProvider();}),
+          ChangeNotifierProvider(create: (_) => BottomNavigationProvider()),
+          ChangeNotifierProvider(create: (_) => WheelchairListProvider()),
         ],
         child: MyHome(),
       ),
