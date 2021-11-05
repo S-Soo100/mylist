@@ -9,8 +9,7 @@ class WheelchairRepository {
       'price': 500000,
       'type': 'normal',
       'favorite': true, //불리언으로 어떻게 집어넣죠?!
-      'picture':
-      '/Users/arthur/toy001/wheelchair_list01/assets/wheelchair_image001.jpeg'
+      'picture': 'assets/wheelchair_image001.jpeg'
     },
     {
       'id': 1,
@@ -19,8 +18,7 @@ class WheelchairRepository {
       'price': 5000000,
       'type': 'fordable',
       'favorite': true, //불리언으로 어떻게 집어넣죠?!
-      'picture':
-      '/Users/arthur/toy001/wheelchair_list01/assets/wheelchair_image002.jpeg'
+      'picture': 'assets/wheelchair_image002.jpeg'
     },
     {
       'id': 2,
@@ -29,8 +27,7 @@ class WheelchairRepository {
       'price': 5000000,
       'type': 'rigid',
       'favorite': false, //불리언으로 어떻게 집어넣죠?!
-      'picture':
-      '/Users/arthur/toy001/wheelchair_list01/assets/wheelchair_image003.jpeg'
+      'picture': 'assets/wheelchair_image003.jpeg'
     },
     {
       'id': 3,
@@ -39,8 +36,7 @@ class WheelchairRepository {
       'price': 4500000,
       'type': 'rigid',
       'favorite': false,
-      'picture':
-      '/Users/arthur/toy001/wheelchair_list01/assets/wheelchair_image004.png'
+      'picture': 'assets/wheelchair_image004.png'
     },
     {
       'id': 4,
@@ -49,7 +45,7 @@ class WheelchairRepository {
       'price': 1900000,
       'type': 'fordable',
       'favorite': false,
-      'picture': '/Users/arthur/toy001/wheelchair_list01/assets/wheelchair_image005.png'
+      'picture': 'assets/wheelchair_image005.png'
     },
     {
       'id': 5,
@@ -58,7 +54,7 @@ class WheelchairRepository {
       'price': 1500000,
       'type': 'fordable',
       'favorite': false,
-      'picture': '/Users/arthur/toy001/wheelchair_list01/assets/wheelchair_image006.png'
+      'picture': 'assets/wheelchair_image006.png'
     },
     {
       'id': 6,
@@ -67,7 +63,7 @@ class WheelchairRepository {
       'price': 4200000,
       'type': 'fordable',
       'favorite': false,
-      'picture': '/Users/arthur/toy001/wheelchair_list01/assets/wheelchair_image007.png'
+      'picture': 'assets/wheelchair_image007.png'
     },
     {
       'id': 7,
@@ -76,7 +72,7 @@ class WheelchairRepository {
       'price': 3850000,
       'type': 'fordable',
       'favorite': false,
-      'picture': '/Users/arthur/toy001/wheelchair_list01/assets/wheelchair_image008.png'
+      'picture': 'assets/wheelchair_image008.png'
     },
     {
       'id': 8,
@@ -85,7 +81,7 @@ class WheelchairRepository {
       'price': 4400000,
       'type': 'rigid',
       'favorite': false,
-      'picture': '/Users/arthur/toy001/wheelchair_list01/assets/wheelchair_image009.png'
+      'picture': 'assets/wheelchair_image009.png'
     },
     {
       'id': 9,
@@ -94,7 +90,7 @@ class WheelchairRepository {
       'price': 4500000,
       'type': 'fordable',
       'favorite': false,
-      'picture': '/Users/arthur/toy001/wheelchair_list01/assets/wheelchair_image010.png'
+      'picture': 'assets/wheelchair_image010.png'
     },
     {
       'id': 10,
@@ -103,7 +99,7 @@ class WheelchairRepository {
       'price': 480000,
       'type': 'fordable',
       'favorite': false,
-      'picture': '/Users/arthur/toy001/wheelchair_list01/assets/wheelchair_image011.png'
+      'picture': 'assets/wheelchair_image011.png'
     },
     {
       'id': 11,
@@ -112,7 +108,7 @@ class WheelchairRepository {
       'price': 1300000,
       'type': 'fordable',
       'favorite': false,
-      'picture': '/Users/arthur/toy001/wheelchair_list01/assets/wheelchair_image012.png'
+      'picture': 'assets/wheelchair_image012.png'
     },
   ];
 
